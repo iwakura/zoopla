@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.7}
 
   s.add_dependency(%q<hashie>, ["~> 1.0.0"])
-  s.add_dependency(%q<curb>, ["~> 0.7.12"])
-  s.add_dependency(%q<json>, ["~> 1.4.3"])
+  s.add_dependency(%q<curb>, [">= 0.7.18"])
+  s.add_dependency(%q<json>, [">= 1.4.3"])
 
   s.add_development_dependency(%q<mocha>, ["~>  0.9.12"])
 end
